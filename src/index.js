@@ -23,14 +23,14 @@ const lista = [
     id: 1,
     nome: 'Golden Retriver',
     imagemUrl:
-      'https://www.agrosete.com.br/wp-content/uploads/2020/12/Cachorro-com-a-l%C3%ADngua-de-fora-%C3%A9-sede-1.jpg'
+      'https://blog.dramei.com.br/wp-content/uploads/2015/01/golden-retriever-bolinha.jpg'
   },
 
   {
     id: 2,
     nome: 'Labrador',
     imagemUrl:
-      'https://blog.cobasi.com.br/wp-content/uploads/2020/12/filhote-de-labrador-principal.jpeg'
+      'https://conviteasaude.com.br/wp-content/uploads/2019/03/labrador-raca.jpg'
   }
 ];
 
@@ -43,7 +43,7 @@ function Item(props) {
     <div>
       {item.nome}
       <br />
-      <img
+      <img src={item.imagemUrl} alt={item.nome} width="200" />
     </div>
   );
 }
