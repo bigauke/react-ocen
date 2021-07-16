@@ -58,10 +58,10 @@ function Lista() {
   );
 }
 function Header() {
-  return <div>Header</div>;
+  return <div className="header" />;
 }
 function Footer() {
-  return <div>Footer</div>;
+  return <div className="footer">Footer</div>;
 }
 
 function App() {
